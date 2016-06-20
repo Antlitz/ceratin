@@ -1,0 +1,231 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.problems
+		background-position: 100% 100%
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.header-wrap
+		background-attachment: scroll
+		background-size: cover
+	.footer-wrapper
+		background-attachment: scroll
+		background-size: cover
+	.product
+		.item
+			&.border
+				border: none
+	.problems
+		background-image: none!important
+	.professionals
+		&-wrapper
+			.img-wrap
+				position: static
+				img
+					display: block
+					float: none
+					margin: 0 auto
+					width: 100%
+	.guide
+		&-list
+			width: 55%
+			margin: 0 auto
+		&-item
+			display: block
+			text-align: center
+			.arrow
+				right: 0
+				left: 0
+				margin: 0 auto 0 38%
+				top: 100%
+				transform: skewX(-20deg) rotate(135deg)
+			.arrow-copy
+				display: none
+			&:first-of-type
+				margin-right: 0
+			&:nth-of-type(3)
+				margin-left: 0
+				margin-right: 0
+	
+				
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	[class*=-title]
+		padding: 25px 0
+		background-image: none!important
+	.nav
+		padding: 0 10px
+	.ceratin
+		&-present
+			float: none
+			margin: 0 auto
+		&-header
+			h1
+				font-size: 36px
+			span
+				font-size: 26px
+		&-brand
+			font-size: 19px
+		&-pic
+			img
+				width: 100%
+	.product
+		&-title
+			background: none!important
+		&-announce
+			padding: 10px
+			margin-bottom: 10px
+	.results
+		&-title
+			padding: 0
+			background-image: none!important
+	.problems
+		&-title
+			margin-bottom: 10px
+			background-image: none!important
+		&-list
+			display: block
+			margin-right: auto
+			margin-left: auto
+			padding: 0 15px
+			text-align: center
+		&-item
+			display: block
+			max-width: 300px
+			margin-right: auto
+			margin-left: auto
+	.professionals
+		&-wrapper
+		&-title
+			margin-bottom: 10px
+	.usage
+		&-item
+			width: 90%
+			margin: 0 auto 10px auto
+			display: block
+			&:nth-of-type(2n)
+				margin-right: auto
+
+			
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	h3
+		font-size: 26px
+	.nav
+		&-logo
+			width: auto
+			h5
+				padding: 0
+				background-image: none!important
+	.ceratin
+		&-brand
+			&:after
+				display: none
+			&:before
+				display: none
+		.inner-border
+			&:after
+				display: none
+		&-order
+			&:after
+				display: none
+		&-timer
+			font-size: 40px
+			h5
+				font-size: 23px
+				line-height: 40px
+			span
+				&:after
+					right: -15px
+			&:after
+				display: none
+			&:before
+				display: none
+	.product
+		.item
+			margin-bottom: 10px
+	.results
+		&-wrapper
+			.next-button
+				right: 0
+			.prev-button
+				left: 0
+	.problems
+	.professionals
+		padding-bottom: 0
+	.guide
+		&-list
+			width: 82%
+		&-item
+			&:first-of-type
+				.arrow
+					margin: 0 auto 0 40%
+					
+	
+	
+				
+
+
+		
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
